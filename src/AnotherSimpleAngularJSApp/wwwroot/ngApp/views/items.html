@@ -1,0 +1,14 @@
+﻿<h2>Items</h2>
+<p>
+    {{controller.message}}
+</p>
+<br />
+<hr />
+<br />
+These are the items:
+
+<ul>
+    <li ng-repeat="item in controller.items">
+        {{item.id}} - {{item.name}}
+    </li>
+</ul>
